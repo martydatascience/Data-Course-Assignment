@@ -6,6 +6,8 @@
 
 The purpose of this file is to explain what I did for this assignment. It is important to read this file in conjunction with the codebook for the assignment, which explains the tidy data set I produced.
 
+* additional comment and explanation is also available in the code itself *
+
 ### Step 0: _Guide to the data_
 This R code, and indeed the assignment, makes use of a dataset which I downloaded from the following site:
 (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
