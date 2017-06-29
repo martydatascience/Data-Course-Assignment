@@ -24,7 +24,7 @@ In addition, there are several other essential files:
 
 For step 0 in my code, I basically just did a bunch of read.csv commands to get all the data I need.
 
-### Step 1: _Merges the training and the test sets to create one data set._
+### Step 1: _Merges the training and the test sets to create one data set_
 
 This step is fairly simple. All my code does is take the X_ file from the training and test folders, and merge them using rbind.
 I do this separately for the subjects, activities, and x_ files
@@ -36,7 +36,7 @@ In this step I take my combined data file and use grep() to reduce it down to a 
 And I add on the subject and activity codes, from the Y_ and subject_ files using cbind
 And I add names to the activity and subject variables to be clear
 
-### Step 3: _Uses descriptive activity names to name the activities in the data set
+### Step 3: _Uses descriptive activity names to name the activities in the data set_
 For this step I used the revalue() function from the plyr package to map each item in the activity codes to an actual task, e.g., walking, etc.
 I could have done gsub() but I preferred the solution of doing it all in one line. Would have been much faster not to research this!
 
